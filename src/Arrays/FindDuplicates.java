@@ -9,14 +9,13 @@ public class FindDuplicates {
     Input:
     N = 5
     a[] = {2,3,1,2,3}
-Output:
-2 3
-Explanation:
-2 and 3 occur more than once in the given array.
-     */
+    Output:
+    2 3
+    Explanation:
+    2 and 3 occur more than once in the given array.
+    */
 
     public static ArrayList<Integer> duplicates(int arr[], int n) {
-        // code here
         ArrayList<Integer> list = new ArrayList<Integer>();
         int tmp[] = new int[n];
 
