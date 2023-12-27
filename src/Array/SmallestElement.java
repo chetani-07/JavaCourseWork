@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 //Task is to find the smallest element in the Given Array.
 public class SmallestElement {

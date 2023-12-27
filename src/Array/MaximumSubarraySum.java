@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 //Given an array arr[] of no-negative integers, the task is to find the elements of a contiguous subarray of numbers that has the largest sum.
 public class MaximumSubarraySum {

@@ -1,10 +1,10 @@
-package Arrays;
+package Array;
 
 import java.util.ArrayList;
 
 public class FindDuplicates {
     /*
-    Given an array a of size N which contains elements from 0 to N-1, you need to find all the elements occurring more than once in the given array.
+    Given an array of size N which contains elements from 0 to N-1, you need to find all the elements occurring more than once in the given array.
     Return the answer in ascending order. If no such element is found, return list containing [-1].
     Input:
     N = 5
@@ -15,7 +15,7 @@ public class FindDuplicates {
     2 and 3 occur more than once in the given array.
     */
 
-    public static ArrayList<Integer> duplicates(int arr[], int n) {
+    public static ArrayList<Integer> duplicates(int[] arr, int n) {
         ArrayList<Integer> list = new ArrayList<Integer>();
         int tmp[] = new int[n];
 

@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 //Task is to print all the elements present at odd positions (Consider 1-Based Indexing/Positions).
 public class PrintOddPositionElements {

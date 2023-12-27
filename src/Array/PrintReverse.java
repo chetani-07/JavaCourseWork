@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 //Task is to print the elements of an array in reverse order.
 public class PrintReverse {

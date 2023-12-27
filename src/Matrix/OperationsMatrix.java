@@ -13,6 +13,18 @@ public class OperationsMatrix {
         System.out.println("----------------");
     }
 
+    //Method to Search an Element into given Matrix.
+    public static boolean searchMatrix(int[][] matrix, int m, int n, int num) {
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == num) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     //Method to Add Two Given Matrices.
     public static int[][] addMatrices(int[][] mat1, int[][] mat2, int m, int n) {
         int[][] res = new int[m][n];
@@ -44,13 +56,20 @@ public class OperationsMatrix {
         System.out.println("Matrix 2: ");
         printMatrix(mat2, 3, 3);
 
-        int[][] sum=addMatrices(mat1,mat2,3,3);
-        System.out.println("Addition of Matrices: ");
-        printMatrix(sum,3,3);
+        int num = 7;
+        if (searchMatrix(mat1, 3, 3, 7)) {
+            System.out.println("Element Found.");
+        } else {
+            System.out.println("Not Found.");
+        }
 
-        int[][] sub=subtractMatrices(mat1,mat2,3,3);
+        int[][] sum = addMatrices(mat1, mat2, 3, 3);
+        System.out.println("Addition of Matrices: ");
+        printMatrix(sum, 3, 3);
+
+        int[][] sub = subtractMatrices(mat1, mat2, 3, 3);
         System.out.println("Subtraction of Matrices: ");
-        printMatrix(sub,3,3);
+        printMatrix(sub, 3, 3);
 
     }
 }

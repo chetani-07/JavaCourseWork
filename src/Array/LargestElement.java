@@ -1,4 +1,4 @@
-package Arrays;
+package Array;
 
 //Task is to find the largest element in the given array.
 public class LargestElement {
